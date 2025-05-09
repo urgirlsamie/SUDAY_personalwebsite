@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessamae Suday | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+          <a href="#home" class="logo">Jessamae Suday</a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="menu-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌓 Dark Mode</button>
+        </div>
+    </nav>
+      
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Hello, I'm <span>Jessamae Suday!</span></h1>
+            <p class="subtitle">Frontend Developer & Designer</p>
+            <p class="intro">I create beautiful, functional websites with minimalist design and modern aesthetics.</p>
+            <a href="#projects" class="btn">View My Work</a>
+          </div>
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <img src="images/profile.jpg" alt="Jessamae Suday">
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate frontend developer with a love for clean, minimalist design. My journey in web development began when I discovered how powerful code can be in bringing creative visions to life.</p>
+                    <p>When I'm not coding, you can find me exploring new design trends, reading about user experience, or enjoying a good cup of coffee while brainstorming my next project.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span>From:</span>
+                            <p>Lila, Bohol</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Education:</span>
+                            <p>Bachelor of Science in Information Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fun-facts">
+                    <h3>Fun Facts</h3>
+                    <ul>
+                        <li>🎨 Self-taught designer</li>
+                        <li>☕ Coffee enthusiast</li>
+                        <li>🌱 Currently learning advanced CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Semantic markup, accessibility, and modern structure</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Responsive design, animations, and creative styling</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive elements and dynamic content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Minimalist Portfolio</h3>
+                        <p>A clean portfolio template with creative UI Figma Design.</p>
+                        <a href="#" class="btn small">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder">Coming Soon</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Gallery</h3>
+                        <p>JavaScript-powered image gallery with filters</p>
+                        <a href="#" class="btn small">In Progress</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch With Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm currently available for freelance work or collaborations. Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:sudayjessamae@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> sudayjessamae@gmail.com
+                        </a>
+                        <a href="https://github.com/urgirlsamie" target="_blank" class="contact-link">
+                            <i class="fab fa-github"></i> github.com/urgirlsamie
+                        </a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Jessamae Suday. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
